@@ -5,7 +5,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 8%;
+    margin-top: 10%;
 }
 
 #searchBar
@@ -16,9 +16,42 @@
     margin-top: 25px;
     width: 570px;
     height: 40px;
+    border: 1px solid #dfe1e5;
     border-radius: 25px;
+    border-color: rgba(223, 225, 229, 0);
+    box-shadow: 0 1px 6px rgba(32, 33, 36, .28);
+    z-index: 1;
+    padding: 10px 35px;
+}
+
+#googleIcons
+{
+    margin-top: -32px;
+    margin-left: 94%;
+    scale: 40%;
+
 
 }
+
+#googleProfile
+{
+    border-radius: 50%;
+    margin-top: -35px;
+    margin-left: 97%;
+}
+
+#googleGlass
+{
+    position: absolute;
+    margin-left: 625px;
+    top: 365px;
+    left: 20px;
+    z-index: 2;
+    scale: 80%;
+    color: #9aa0a6;
+    
+}
+
 </style>
 
 
@@ -38,12 +71,14 @@
             <ul>
                 <li>Gmail</li>
                 <li>Images</li>
-                <li><img src="images/googleAppsIcon.png"></li>
             </ul>
-
         </header>
-
+        <div>
+        <img id="googleIcons" src="images/googleAppsIcon.png">
+        <img id="googleProfile" src="images/googleProfile.png">    
         <img id="googleImage" src="images/googleLogo.png" alt="The google logo">
+        <img id="googleGlass" src="images/googleMagnifyingGlass1x.png">
+        </div>
         <form>
             <input id="searchBar" type="text">
             <br>
@@ -55,8 +90,8 @@
         </form>
 
 
-
-
+        
+        
 
 
 
