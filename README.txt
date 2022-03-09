@@ -1,1 +1,1 @@
-I am recreating the Google Homepage
+I am re-creating the Google Homepage from scratch.
